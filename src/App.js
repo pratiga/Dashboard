@@ -2,6 +2,7 @@
 import './App.css';
 import MainDash from './components/MainDash/MainDash';
 import Sidebar from './components/Sidebar';
+import Table from './components/Table/Table';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div className='AppGlass'>
       <Sidebar/>
       <MainDash /> 
+      <Table />
       <div></div>
       <div></div>
       <div></div>
